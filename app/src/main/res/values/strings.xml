@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fresh_Life</string>
+    <string name="add">Add</string>
+    <string name="name_number_etc">Name, Number etc.</string>
+
+    <string-array name="string_array_sugar">
+        <item>Γλυκός</item>
+        <item>Μέτριος</item>
+        <item>Σκέτος</item>
+    </string-array>
+</resources>
