@@ -111,7 +111,7 @@ public class SyncData {
     private void getitemsfromserver() {
         Item_List = new ArrayList<>();
         db = new DatabaseHelper(context) ;
-        String url = "https://fresh-lifeptolemaida.000webhostapp.com/db_sync/down_items.php";
+        String url = "https://fresh-life//////////////////////////";
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
@@ -181,7 +181,7 @@ public class SyncData {
 
 
     private void registerUser(final Customer customer) {
-        String url = "https://fresh-lifeptolemaida.000webhostapp.com/db_sync/up_customers.php";
+        String url = "https://fresh-life//////////////////////////";
         StringRequest stringRequest=new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -222,7 +222,7 @@ public class SyncData {
     private void getcustomersfromserver() {
         customer_list = new ArrayList<>();
         db = new DatabaseHelper(context) ;
-        String url = "https://fresh-lifeptolemaida.000webhostapp.com/db_sync/down_customers.php";
+        String url = "https://fresh-life//////////////////////////";
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
@@ -289,7 +289,7 @@ public class SyncData {
 
 
     private void uploadOrders(final Order order) {
-        String url = "https://fresh-lifeptolemaida.000webhostapp.com/db_sync/up_orders.php";
+        String url = "https://fresh-life//////////////////////////";
         StringRequest stringRequest=new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -332,7 +332,7 @@ public class SyncData {
     private void getOrdersfromserver() {
         order_list = new ArrayList<>();
         db = new DatabaseHelper(context) ;
-        String url = "https://fresh-lifeptolemaida.000webhostapp.com/db_sync/down_orders.php";
+        String url = "https://fresh-life//////////////////////////";
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
@@ -407,7 +407,7 @@ public class SyncData {
     }
 
     private void uploadOrderItems(final OrderItem order_item) {
-        String url = "https://fresh-lifeptolemaida.000webhostapp.com/db_sync/up_orderItems.php";
+        String url = "https://fresh-life//////////////////////////";
         StringRequest stringRequest=new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -447,7 +447,7 @@ public class SyncData {
     private void getOrderItemsfromserver() {
         order_items_list = new ArrayList<>();
         db = new DatabaseHelper(context) ;
-        String url = "https://fresh-lifeptolemaida.000webhostapp.com/db_sync/down_orderItems.php";
+        String url = "https://fresh-life//////////////////////////";
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
